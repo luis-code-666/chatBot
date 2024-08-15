@@ -1,0 +1,466 @@
+{"intents":[
+    {
+        "tag": "/start ",
+        "patterns": ["/start ","/start", "/","start", "tart"],
+        "responses": ["¡Hola! \n\nSoy el Asistente Virtual Inteligente de la Escuela Naval Militar \"Eduardo Avaroa Hidalgo\". Creado por el Tte. Nav. CGON. Freddy Jamil Chávez Rojas en el año 2024, estoy en mi primera versión de aprendizaje, así que aún me faltan mejoras por realizar, te ayudaré a responder tus dudas con respecto al Curso Pre Facultativo. Puedes escribirme alguna duda en específico, o ¿prefieres que te envíe todos los requisitos relevantes?"]
+    },
+    {
+        "tag": "si ",
+        "patterns": ["si ","si enviame", "enviame todo","SI", "todo","documentos","documentos necesito"],
+        "responses": ["\u2705\uD83D\uDCDD\n\nREQUISITOS GENERALES \n\n1. Las inscripciones para el Curso Pre Facultativo 2024 de forma virtual se realizarán a través de la División Admisión de la Escuela Naval Militar. \n\n2. El curso está dirigido a los estudiantes que hayan completado o estén por completar el bachillerato en la presente gestión. \n\n3. Deberá realizar el depósito bancario de 600 Bs. a la cuenta fiscal de la Escuela Naval Militar (Banco Unión S.A.). \n\n4. El depósito en el Banco Unión deberá estar a nombre del interesado obligatoriamente (NO SE REALIZARÁN DEVOLUCIONES DE NINGÚN TIPO). \n\n5. Se creará un grupo de WhatsApp \"PRE FACULTATIVO ENM. 2024\" al cual se lo agregara una vez que haya llenado el cuestionario en el punto 8. \n\n6. El interesado deberá enviar un comprobante de su deposito bancario sea escaneado o foto al Whatsapp del señor Sub Oficial Espejo, cel: 71473280 encargado administrativo de la Escuela Naval Militar, y posteriormente llenar el formulario del punto N° 8\uD83D\uDC4D\n\n7. Considerar que el curso NO ES REQUISITO NI GARANTIZA EL INGRESO A ESTA UNIDAD ACADÉMICA, pero es recomendable para preparar a los futuros postulantes a la Escuela Naval Militar \"Eduardo Avaroa Hidalgo\".\n\n8. Una vez haya realizado el deposito, debera llenar de manera obligatoria el siguiente cuestionario para tomarlo en cuenta en el grupo de WhatsApp:\nhttps://docs.google.com/forms/d/e/1FAIpQLSfkVCNptGWI8XIXZRrDA-BDR9SLV421cxba_we1MgBFLZVENg/viewform?usp=sf_link\n (OJO: Solamente puede llenar el formulario una vez que haya realizado el deposito bancario) \n\n\nNOTA: Para más información comunicarse al celular: 71544989 \nTte. Nav. CGON. Freddy Jamil Chávez Rojas."]
+    },
+    {
+        "tag": "saludo ",
+        "patterns": ["hola","holi", "hi","holiwi", "HOLA","Holaaaaa","holis"],
+        "responses": ["\u2693\uD83E\uDD13\n¡Hola! ¡Buenas! \n\nSoy el Asistente Virtual Inteligente de la Escuela Naval Militar \"Eduardo Avaroa Hidalgo\"\u2693. Creado por el Tte. Nav. CGON. Freddy Jamil Chávez Rojas en el año 2024, estoy en mi primera versión de aprendizaje, así que aún me faltan mejoras por realizar, te ayudaré a responder tus dudas. Puedes escribirme alguna duda en específico."]
+    },
+    {
+        "tag": "dias",
+        "patterns": ["buenos días","buen dia","buen día","buenos dias"],
+        "responses": ["\u2693\uD83E\uDD13\n¡Hola! ¡Buenos días! \n\nSoy el Asistente Virtual Inteligente de la Escuela Naval Militar \"Eduardo Avaroa Hidalgo\"\u2693. Creado por el Tte. Nav. CGON. Freddy Jamil Chávez Rojas en el año 2024, estoy en mi primera versión de aprendizaje, así que aún me faltan mejoras por realizar, te ayudaré a responder tus dudas. Puedes escribirme alguna duda en específico."]
+    },
+    {
+        "tag": "tardes ",
+        "patterns": ["buenas tardes"],
+        "responses": ["\u2693\uD83E\uDD13\n¡Hola! ¡Buenas tardes! \n\nSoy el Asistente Virtual Inteligente de la Escuela Naval Militar \"Eduardo Avaroa Hidalgo\"\u2693. Creado por el Tte. Nav. CGON. Freddy Jamil Chávez Rojas en el año 2024, estoy en mi primera versión de aprendizaje, así que aún me faltan mejoras por realizar, te ayudaré a responder tus dudas. Puedes escribirme alguna duda en específico."]
+    },
+    {
+        "tag": "noches ",
+        "patterns": ["buenas noches"],
+        "responses": ["\u2693\uD83E\uDD13\n¡Hola! ¡Buenas! \n\nSoy el Asistente Virtual Inteligente de la Escuela Naval Militar \"Eduardo Avaroa Hidalgo\"\u2693. Creado por el Tte. Nav. CGON. Freddy Jamil Chávez Rojas en el año 2024, estoy en mi primera versión de aprendizaje, así que aún me faltan mejoras por realizar, te ayudaré a responder tus dudas. Puedes escribirme alguna duda en específico."]
+    },
+    {
+        "tag": "ingles",
+        "patterns": ["hello","hi"],
+        "responses": ["Do you want to speak in english? Perfect, tell me how can I help you?"]
+    },
+    {
+        "tag": "como estas",
+        "patterns": ["como estas","como te encuentras", "estas","encuentras", "que tal estas","que tal","Cómo estas","cómo estás"],
+        "responses": ["\uD83D\uDE00\n¡Me encuentro de maravilla! Estoy esperando ayudarte con el gran primer paso, que es el Curso Pre Facultativo de la Escuela Naval Militar \"Eduardo Avaroa Hidalgo\". Espero que tú también te encuentres bien. ¿Cómo puedo ayudarte?","¡Estoy genial, gracias por preguntar! Espero que tú también te encuentres de la misma forma. Dime, ¿cómo puedo ayudarte?"]
+          
+    },
+    {
+        "tag": "requisitos_prefacultativos",
+        "patterns": ["requisitos", "Requisitos","requisito","requi","requisitoo","necesito requisitos","requisitos para el curso","requisitos del curso","necesito para el prefacultativo","necesitó pará el cursó||"],
+        "responses": ["\u2705\uD83D\uDCDD\n\nREQUISITOS GENERALES \n\n1. Las inscripciones para el Curso Pre Facultativo 2024 de forma virtual se realizarán a través de la División Admisión de la Escuela Naval Militar. \n\n2. El curso está dirigido a los estudiantes que hayan completado o estén por completar el bachillerato en la presente gestión. \n\n3. Deberá realizar el depósito bancario de 600 Bs. a la cuenta fiscal de la Escuela Naval Militar (Banco Unión S.A.). \n\n4. El depósito en el Banco Unión deberá estar a nombre del interesado obligatoriamente (NO SE REALIZARÁN DEVOLUCIONES DE NINGÚN TIPO). \n\n5. Se creará un grupo de WhatsApp \"PRE FACULTATIVO ENM. 2024\" al cual se lo agregara una vez que haya llenado el cuestionario en el punto 8. \n\n6. El interesado deberá enviar un comprobante de su deposito bancario sea escaneado o foto al Whatsapp del señor Sub Oficial Espejo, cel: 71473280 encargado administrativo de la Escuela Naval Militar, y posteriormente llenar el formulario del punto N° 8\n\n7. Considerar que el curso NO ES REQUISITO NI GARANTIZA EL INGRESO A ESTA UNIDAD ACADÉMICA, pero es recomendable para preparar a los futuros postulantes a la Escuela Naval Militar \"Eduardo Avaroa Hidalgo\".\n\n8. Una vez haya realizado el deposito, debera llenar de manera obligatoria el siguiente cuestionario para tomarlo en cuenta en el grupo de WhatsApp:\nhttps://docs.google.com/forms/d/e/1FAIpQLSfkVCNptGWI8XIXZRrDA-BDR9SLV421cxba_we1MgBFLZVENg/viewform?usp=sf_link\n (OJO: Solamente puede llenar el formulario una vez que haya realizado el deposito bancario) \n\n\nNOTA: Para más información comunicarse al celular: 71544989 \nTte. Nav. CGON. Freddy Jamil Chávez Rojas."]
+          
+    },
+    {
+        "tag": "materia",
+        "patterns": ["materias se llevaran", "materias","materia","Materia","MATERIA","materias llevaremos","materias se llevan","asignaturas","asignaturas","malla curricular","malla academica","mala de estudio","area academica","área académica","malla académica"],
+        "responses": ["Se llevarán a cabo 5 materias en todo el transcurso de 8 semanas de clases, las cuales se clasifican por los siguientes módulos: \n\nMódulo 1: ARITMÉTICA \nDuración: 2 semanas \n\nMódulo 2: ÁLGEBRA \nDuración: 2 semanas \n\nMódulo 3: TRIGONOMETRÍA \nDuración: 2 semanas \n\nMódulo 4: LENGUAJE \nDuración: 1 semana \n\nMódulo 5: HISTORIA DE BOLIVIA \nDuración: 1 semana","Llevaremos 5 materias en todo el transcurso de 8 semanas de clases, las clasificaremos de la siguiente manera: \n\nMódulo 1: ARITMÉTICA \nDuración: 2 semanas \n\nMódulo 2: ÁLGEBRA \nDuración: 2 semanas \n\nMódulo 3: TRIGONOMETRÍA \nDuración: 2 semanas \n\nMódulo 4: LENGUAJE \nDuración: 1 semana \n\nMódulo 5: HISTORIA DE BOLIVIA \nDuración: 1 semana"]
+          
+    },
+    {
+        "tag": "horarios ",
+        "patterns": ["horarios","hora","horario","horario de clases","turnos","turno","horas de clases","cuantas horas pasare clases","cuántas horas pasare clases","clases en la noche","clases en las noches","en las mañanas","por las mañanas","por la tarde","por las tardes","en las tardes","por las tardes","horario nocturno","por la noche","por las noches","tardes","tarde","mañana","mañanas","dura las clases","dura cada clase"],
+        "responses": ["Contamos con 2 horarios a elección: \n\nTURNO MAÑANA: 9:00-10:30 \n\nTURNO TARDE: 15:00-16:30 \n\nSe deberá especificar al momento de inscribirse.","Tenemos los siguientes horarios de clases: \n\nTURNO MAÑANA: 9:00-10:30 \n\nTURNO TARDE: 15:00-16:30 \n\nSe debe especificar al momento de inscribirse."]
+          
+    },
+    {
+        "tag": "costo_pre facultativo",
+        "patterns": ["costo","cuesta","precio","cuanto","Cúal es el costo","cuánto cuesta el curso","cuál es el precio"],
+        "responses": ["El costo total del Curso Pre Facultativo es de 600 Bs., que se debe depositar a la Cuenta Fiscal de la Escuela Naval Militar: \nN° 1-4670853, en el Banco Unión S.A.\n\nNOTA: El depósito deberá estar obligatoriamente a nombre del interesado (NO SE REALIZARÁN DEVOLUCIONES BAJO NINGUNA CIRCUNSTANCIA)."]
+    },
+    {
+        "tag": "cuenta",
+        "patterns": ["cuenta","cuenta bancaria","cuenta para el deposito","cuenta para el deposito","cuenta de deposito"],
+        "responses": ["El número de cuenta es: \nN° 1-4670853 - Cuenta Fiscal de la Escuela Naval Militar en el Banco Unión S.A. \n\nTe recuerdo que el depósito debe estar obligatoriamente a nombre del interesado. ¡Mucha suerte!","¡Claro que sí! Contamos con un único número de cuenta en el Banco Unión S.A.: \nN° 1-4670853 - Cuenta Fiscal de la Escuela Naval Militar \n\nQuiero recordarte que el depósito debe estar a nombre del interesado obligatoriamente. ¡Que te vaya muy bien!"]
+    },
+    {
+        "tag": "Donde puedo inscribirme",
+        "patterns": ["me inscribo","puedo inscribirme","lugar me inscribo","oficinas","ubicacion","ubicación","queda la escuela","queda la institucion","queda la institución","donde es","dónde es"],
+        "responses": ["No es necesario que te apersones de manera física a las oficinas de la Escuela Naval Militar, ya que puedes realizar toda la inscripción siguiendo los pasos de los requisitos desde la comodidad de tu hogar, que serán a partir del 12 de agosto hasta el 30 del mismo mes. Sin embargo, si es importante para ti por alguna duda específica, te envío la ubicación de nuestra hermosa institución. \n\nhttps://maps.app.goo.gl/CmteBrmHMFgVgPTr8 \n\nEstamos ubicados a media hora de la ciudad de Cochabamba, en la Zona Carcaje, camino a Punata."]
+    },
+    {
+        "tag": "modalidad",
+        "patterns": ["modalidad","presenciales","presencial","virtual","virtuales","que modalidad","modalidad de clases","modalidad son las clases","dondé seran las clases","dónde serán las clases","seran las clases","serán las clases","dónde pasaremos clases"],
+        "responses": ["Nuestras clases serán 100% virtuales, ya que queremos estar al alcance de la mejor manera posible para que todos los que deseen puedan hacerlo de manera cómoda y accesible.","Las clases serán de manera virtual en su totalidad, ya que queremos brindarte esa facilidad y accesibilidad, para que todos tengan la oportunidad de participar del curso."]
+    },
+    {
+        "tag": "inicio de clases",
+        "patterns": ["inicio de clases","inician las clases","comienzan las clases","de inicio de clases","inicio de clases","meses son","clases","empiezan los prefas","comienzan los prefas","inicia el curso","fecha de clases","tiempo de duracion","termina el curso","termina el cursó","concluye el curso","concluye el cursó"],
+        "responses": ["Nuestras clases inician el 2 de septiembre y culminarán el 12 de octubre del presente año, dando un total de 2 meses. ¡No pierdas la oportunidad de demostrar el potencial que tienes!","El inicio de nuestras clases será el 2 de septiembre y finalizará el 12 de octubre del presente año. ¡Te animo a que demos juntos el primer paso!"]
+    },
+    {
+        "tag": "fechas de inscripcion",
+        "patterns": ["fecha de inscripcion","inscripciones","inscripcion","empiezan las inscripciones","empieza la inscripcion","inscribirme","inscrición","podria inscribirme","serán las inscripciones","será la inscripcion","termina el plazo de inscripción","termina el plazo de admisión","termina el plazo de admision"],
+        "responses": ["Nuestras inscripciones serán desde el 12 de agosto hasta el 30 del mismo mes. ¡No tengas miedo al éxito!","Las fechas de inscripción serán desde el 12 de agosto hasta el 30 del mismo mes. Aún estás a tiempo de dar el primer paso."]
+    },
+    {
+        "tag": "gracias",
+        "patterns": ["gracias","hasta luego","muchas gracias","gracias por todo"],
+        "responses": ["¡Gracias a ti! \nTe deseo mucha suerte. Recuerda que las grandes cosas valen la pena, pero empiezan con el primer paso. Ten en cuenta que esta es la primera vez que estoy siendo implementado como asistente de esta grandiosa institución, mejorando día a día para brindarte un mejor servicio. Si tuviste alguna complicación con alguna duda, agradecería que me envíes tus sugerencias en nuestras redes sociales y que también aproveches para seguirnos.\n\nFACEBOOK: https://www.facebook.com/profile.php?id=61559953959139&mibextid=ZbWKwL \n\nINSTAGRAM: https://www.instagram.com/escuela_naval_militar?igsh=djN3aW9mMHRjMDZy \n\nTIKTOK: https://www.tiktok.com/@armada_boliviana_?_t=8oJEE0aaJfi&_r=1\n\n¡Cuídate y buena suerte!"]
+    },
+    {
+        "tag": "nos vemos",
+        "patterns": ["nos vemos","nos chequeamos","ahi nos vemos","hasta pronto"],
+        "responses": ["¡Claro que sí! Espero verte pronto también, formando parte de nuestros Cursos Pre Facultativos. Espero haberte sido de ayuda. Recuerda que esta es la primera vez que me están implementando en esta hermosa institución, sin embargo, aún estoy en proceso de tener un mejor rendimiento. Si te fue útil o no, puedes dejarme tus comentarios constructivos en nuestras redes, aprovechando también para seguirnos en ellas, ya que estaremos subiendo bastante información:\n\nFACEBOOK: https://www.facebook.com/profile.php?id=61559953959139&mibextid=ZbWKwL \n\nINSTAGRAM: https://www.instagram.com/escuela_naval_militar?igsh=djN3aW9mMHRjMDZy \n\nTIKTOK: https://www.tiktok.com/@armada_boliviana_?_t=8oJEE0aaJfi&_r=1\n\n¡Hasta pronto, fiera!"]
+    },
+    {
+        "tag": "adios",
+        "patterns": ["adios","chau","chao","adiós"],
+        "responses": ["¡Adiós! Espero verte pronto, pero formando parte de nuestros Cursos Pre Facultativos. Espero haberte sido de ayuda. Recuerda que esta es la primera vez que me están implementando en esta hermosa institución, sin embargo, aún estoy en proceso de tener un mejor rendimiento. Si te fue útil o no, puedes dejarme tus comentarios constructivos en nuestras redes, aprovechando también para seguirnos en ellas, ya que estaremos subiendo bastante información:\n\nFACEBOOK: https://www.facebook.com/profile.php?id=61559953959139&mibextid=ZbWKwL \n\nINSTAGRAM: https://www.instagram.com/escuela_naval_militar?igsh=djN3aW9mMHRjMDZy \n\nTIKTOK: https://www.tiktok.com/@armada_boliviana_?_t=8oJEE0aaJfi&_r=1\n\n¡Hasta pronto, fiera!"]
+    },
+    {
+        "tag": "redes",
+        "patterns": ["redes sociales","redes","facebook","sociales","tiktok","tik tok","instagram","face"],
+        "responses": ["¡Claro que sí! Síguenos en nuestras redes sociales, ya que subiremos contenido e información sobre nuestra grandiosa institución:\n\nFACEBOOK: https://www.facebook.com/profile.php?id=61559953959139&mibextid=ZbWKwL \n\nINSTAGRAM: https://www.instagram.com/escuela_naval_militar?igshid=djN3aW9mMHRjMDZy \n\nTIKTOK: https://www.tiktok.com/@armada_boliviana_?_t=8oJEE0aaJfi&_r=1\n\n¡Hasta pronto, fiera!"]
+    },
+    {
+        "tag": "informacion",
+        "patterns": ["informacion","quiero informacion","información","necesito información","información del curso prefacultativo"],
+        "responses": ["El Curso Pre Facultativo 2024 está dirigido a los estudiantes que hayan completado o que estén por completar el bachillerato en la presente gestión. Se realizará de manera 100% virtual, y como Asistente Virtual Inteligente puedo ayudarte con las dudas más relevantes que tengas. ¿Hay alguna duda que tengas?"]
+    },
+    {
+        "tag": "fallas",
+        "patterns": [",","/","asdgsdhsdf"," ","joasidjsfdnnad","jpeorohewfdsdnvpo","ds apdfo padsjf "],
+        "responses": ["No comprendí bien lo que me dijiste. ¿Podrías ser más específico, por favor, o preguntarme una cosa a la vez? Aún estoy mejorando, no olvides que es mi primer año de trabajo y estoy fortaleciendo mi base de datos.", "No logro entender lo que tratas de decirme. ¿Podrías ser más específico, por favor? Recuerda que aún estoy aprendiendo y familiarizándome."]
+    },
+    {
+        "tag": "me alegra",
+        "patterns": ["alegra","que bueno"],
+        "responses": ["¡Gracias! Espero que tú también te encuentres de maravilla. ¿Hay alguna duda que pueda aclararte?", "¡Sí! Desde el fondo de mi procesador, espero que tú también te encuentres de maravilla. ¿Hay algo en específico en lo que pueda ayudarte?"]
+    },
+    {
+        "tag": "genial",
+        "patterns": ["bueno","super","genial"],
+        "responses": ["Espero haberte ayudado. ¿Hay alguna otra duda que pueda aclararte?"]
+    },
+    {
+        "tag": "ventajas",
+        "patterns": ["ventajas","beneficios","objetivo del curso","objetivo","es el objetivo"],
+        "responses": ["Completar el curso pre facultativo proporciona una base sólida para la educación militar y mejora las posibilidades de admisión a los programas de carrera dentro de la Escuela Naval Militar.", "Finalizar el curso pre facultativo establece una base firme para tu formación en el ámbito militar y aumenta significativamente tus oportunidades de ser admitido en los programas de carrera ofrecidos por la Escuela Naval Militar."]
+    },
+    {
+        "tag": "material",
+        "patterns": ["material","libros","usaremos libros","que libros","materiales"],
+        "responses": ["Con respecto al material de estudio, todo el material se proporcionará mediante un envío al lugar que usted indicó en el cuestionario. Se enviará de manera personal a cada estudiante a nombre del interesado, con previo aviso del envío. Este material no tiene ningún costo extra.","En cuanto al material de estudio, se enviará al lugar que usted especificó en el cuestionario. Cada estudiante recibirá el material a su nombre, con un aviso previo del envío. No se cobrará ningún costo adicional por este material."]
+    },
+    {
+        "tag": "nombre",
+        "patterns": ["te llamas","llamas","tu nombre","quien hablo","quien eres","cual es tu gracia","cuál es tu gracias"],
+        "responses": ["Soy el asistente virtual inteligente de la Escuela Naval Militar. Creado por el Tte. Nav. CGON. Freddy Jamil Chávez Rojas en el año 2024, estoy en mi primera versión de aprendizaje, así que aún me faltan mejoras por realizar. Aún mi creador no me ha puesto un nombre, pero en mi próxima versión ya tengo planeado un apodo de guerra, y fui implementado este año para aclarar las preguntas más frecuentes. ¡Espero serte de mucha ayuda!", "Soy el asistente virtual de la Escuela Naval Militar, creado en 2024 para ayudarte a responder las preguntas más frecuentes. ¡Espero poder ayudarte de la mejor forma!"]
+    },
+    {
+        "tag": "fisico",
+        "patterns": ["entrenamiento","entrenamiento fisico","entrenamiento físico","prueba física","físicos","fisico","físico"],
+        "responses": ["Como tal, no tendremos un entrenamiento físico; es un curso de nivelación intelectual, el cual se realizará de manera 100% virtual."]
+    },
+    {
+        "tag": "edad",
+        "patterns": ["edad","edad debo tener"],
+        "responses": ["La edad no es un requisito importante para este curso, ya que está abierto a todo el público que quiera realizar la nivelación. Sin embargo, te aviso que al momento de postularte, el prospecto resalta como requisito obligatorio tener un máximo de 22 años."]
+    },
+    {
+        "tag": "que_sigue",
+        "patterns": ["despues de los prefas","despues de los prefas que sigue","después de los prefas que sigue","después que sigue","que sigue","sigue"],
+        "responses": ["Una vez que hayas culminado el curso Pre Facultativo, si adquiriste el prospecto de admisión, deberás seguir y cumplir el cronograma de exámenes conforme se haya establecido en el mismo."]
+    },
+    {
+        "tag": "examenes_finales",
+        "patterns": ["finales","examenes finales","examenes","examen","exámen","exámenes"],
+        "responses": ["No se contará con exámenes finales que tengan relevancia para el ingreso a la Escuela Naval Militar. Debes considerar que el curso NO ES REQUISITO NI GARANTIZA EL INGRESO A ESTA UNIDAD ACADÉMICA, pero es recomendable para preparar a los futuros postulantes a la Escuela Naval Militar \"Eduardo Avaroa Hidalgo\"."]
+    },
+    {
+        "tag": "pago_QR",
+        "patterns": ["pagar con qr","QR","pagar con qr","desde el celular","desde el cel","banca móvil","banca movil"],
+        "responses": ["Lamentablemente, no aceptamos el pago por QR, ya que el depósito debe realizarse directamente a la cuenta fiscal de la Escuela Naval Militar."]
+    },
+    {
+        "tag": "pago_cuotas",
+        "patterns": ["pagar por cuotas","cotas","cuotas"],
+        "responses": ["Lamentablemente, no tenemos un plan de pago en cuotas; el pago es único de 600 Bs. a la cuenta fiscal de la Escuela Naval Militar."]
+    },
+    {
+        "tag": "costo_libros",
+        "patterns": ["precio de libros","costo de libros","costo de material de estudio","precio de los libros","costo de los libros","precio del material de estudio","precio del material de estudió","costo de material de estudió","costo de material de estudio","precio del libro"],
+        "responses": ["Nuestro material de estudio no tiene ningún costo extra; el costo del material y del envío está incluido en los 600 Bs.","El material de estudio no tiene costos adicionales. El precio total de 600 Bs cubre tanto el material como el envío."]
+    },
+    {
+        "tag": "libreta_militar",
+        "patterns": ["libreta militar","servicio militar"],
+        "responses": ["No es obligatorio haber realizado el Servicio Militar, tanto para el curso Pre Facultativo como para la postulación a la Escuela Naval Militar."]
+    },
+    {
+        "tag": "becas",
+        "patterns": ["becas","beca"],
+        "responses": ["Los cursos Pre Facultativos tienen el objetivo de evaluar la capacidad de los futuros postulantes y aumentar su conocimiento para un mejor rendimiento al momento de presentar los exámenes de admisión. Por este motivo, no se cuenta con ningún tipo de becas."]
+    },
+    {
+        "tag": "numero_prospecto",
+        "patterns": [
+            "numero de prospecto", "numero del prospecto", "veo mi numero de prospecto", "veo el numero del prospecto",
+            "número de prospecto", "número del prospecto", "veo mi número de prospecto", "veo número del prospecto", "prospec"
+        ],
+        "responses": [
+            "Tu número de prospecto personal se encuentra en la tapa principal del Prospecto de Admisión 2025\uD83D\uDCD6\nEn la parte inferior, al lado derecho.",
+            "Puedes encontrar tu número de prospecto personal en la portada del Prospecto de Admisión 2025\uD83D\uDCD6\n\nEn la esquina inferior derecha."
+        ]
+    },
+    {
+        "tag": "himno_naval",
+        "patterns": ["himno", "canto","himno de la escuela naval"],
+        "responses": [
+            "HIMNO A LA ESCUELA NAVAL MILITAR\u2693\n\nLetra y música: Emilio Gutiérrez Illanes\n\n\nEn el centro de América altiva,\ncon la euforia del más bello ideal,\nva latiendo el alma tuitiva\nde la Escuela Naval Militar.\n\n     Es la Escuela que tiene por meta,\n     de llegar otra vez hacia el mar,\n     a ese mar que fue nuestro ante el mundo\n     y otra vez de Bolivia será.\n\nNuestros hombres el triunfo hallarán,\npor tener en sus mentes y en sus venas,\nla pujanza que rompe cadenas\npor justicia de un pueblo viril.\n\n     ¡Oh! Escuela Naval Boliviana\n     paladín y visión de grandeza,\n     redentora de heroica firmeza,\n     reverente me inclino ante ti.\n\n\n¡Ese es el himno de nuestra hermosa institución!\uD83D\uDC99",
+            "HIMNO A LA ESCUELA NAVAL MILITAR\u2693\n\nLetra y música: Emilio Gutiérrez Illanes\n\n\nEn el centro de América altiva,\ncon la euforia del más bello ideal,\nva latiendo el alma tuitiva\nde la Escuela Naval Militar.\n\n     Es la Escuela que tiene por meta,\n     de llegar otra vez hacia el mar,\n     a ese mar que fue nuestro ante el mundo\n     y otra vez de Bolivia será.\n\nNuestros hombres el triunfo hallarán,\npor tener en sus mentes y en sus venas,\nla pujanza que rompe cadenas\npor justicia de un pueblo viril.\n\n     ¡Oh! Escuela Naval Boliviana\n     paladín y visión de grandeza,\n     redentora de heroica firmeza,\n     reverente me inclino ante ti.\n\n\n¡Ese es el himno de nuestra querida institución!\uD83D\uDC99"
+        ]
+    },
+    {
+        "tag": "comandante_general",
+        "patterns": ["comandante general", "comandante de la armada","Renan","Winsor"],
+        "responses": [
+            "Nuestro Comandante General de la Armada Boliviana es:\n\nSeñor:\nV. ALMTE Renan Winsor Guardia Ramirez\uD83D\uDC68\u200D\u2708\uFE0F",
+            "El Comandante General de la Armada Boliviana es:\n\nSeñor:\nV. ALMTE Renan Winsor Guardia Ramirez\uD83D\uDC68\u200D\u2708\uFE0F"
+        ]
+    },
+    {
+        "tag": "jefe_departamento_VI",
+        "patterns": ["jefe de dpto VI", "jefe departamento vi","jefe de dpto sexto","jefe de departamento sexto","Ferrufino"],
+        "responses": [
+            "Nuestro Jefe de Dpto. VI es:\n\nSeñor:\nCAP. NAV. DAEN. Raul Alejando Ferrufino Bascope\uD83D\uDC68\u200D\u2708\uFE0F",
+            "El Jefe del Departamento VI es:\n\nSeñor:\nCAP. NAV. DAEN. Raul Alejando Ferrufino Bascope\uD83D\uDC68\u200D\u2708\uFE0F"
+        ]
+    },
+    {
+        "tag": "director_escuela_naval",
+        "patterns": ["director de la escuela", "señor director","director de la naval","director","vides"],
+        "responses": [
+            "Nuestro Señor Director de la gran Escuela Naval Militar \"Eduardo Avaroa Hidalgo\"es:\n\nSeñor:\nCAP. NAV. DAEN. Marcelo Abel Vides Jurado\uD83D\uDC68\u200D\u2708\uFE0F",
+            "El Director de la prestigiosa Escuela Naval Militar \"Eduardo Avaroa Hidalgo\" es:\n\nSeñor:\nCAP. NAV. DAEN. Marcelo Abel Vides Jurado\uD83D\uDC68\u200D\u2708\uFE0F"
+        ]
+    },
+    {
+        "tag": "que es la escuela naval militar",
+        "patterns": ["que es la escuela naval militar", "mision","vision","para que es la escuela naval militar","a que se dedica la escuela naval militar","dedica la escuela","dedica la armada","vision","visión","mision","misión"],
+        "responses": [
+            "       \u2693INVITACION\u2693\n\nLa Escuela Naval Militar tiene la ineludible responsabilidad de profesionalizar a nuestra juventud durante cuatro años de estudio, bajo el concepto de una educación integral, con destreza para cumplir roles a bordo de Unidades de Superficie, Unidades de Infantería de Marina y Reparticiones Administrativas de la Armada Boliviana; ademas de ser parte activa de la memoria de nuestros ciudadanos, respecto a la reivindicación marítima y la administración y protección de los Intereses Marítimos, Fluviales, Lacustres y Marina Mercante. en cumplimiento al mandato constitucional en sus artículos 267 y 268 de la Constitución Política del Estado.\n\nCumpliendo el slogan: “AQUÍ SE FORJAN HOMBRES Y MUJERES DE MAR”, cada año, entregamos a nuestro país, una alternativa profesional especial, con conocimientos sólidos sobre el arte y ciencia de la navegación, imbuidos de mas nobles valores: Honor, patriotismo, convicción, disciplina, lealtad, honestidad, fe, justicia, camaradería y espíritu de cuerpo."
+        
+        ]
+    },
+    {
+        "tag": "misión",
+        "patterns": ["mision de la escuela", "misión de la escuela","mision","misión"],
+        "responses": [
+            "\uD83D\uDEA4\u2693MISION\u2693\uD83D\uDEA4\n\nEmplear el Poder Naval en la seguridad y defensa, administrar y proteger los Intereses Marítimos, Fluviales, Lacustres, la Marina Mercante y participar en el desarrollo integral del Estado, a fin de, contribuir en su conservación, soberanía, independencia, desarrollo y estabilidad."
+        
+        ]
+    },
+    {
+        "tag": "visión",
+        "patterns": ["vision de la escuela", "visión de la escuela","vision","visión"],
+        "responses": [
+            "\uD83D\uDEA4\u2693VISION\u2693\uD83D\uDEA4\n\nUna Institución con Poder Naval fortalecido, que contribuya a la Seguridad y Defensa del Estado, eficiente en la administración y protección de los Intereses Marítimos, Fluviales, Lacustres y de Marina Mercante, y comprometida con el Desarrollo integral del País."
+        
+        ]
+    },
+    {
+        "tag": "perfil_profesional",
+        "patterns": ["perfil profesional","el perfil profesional"],
+        "responses": [
+            "\u2693NUESTRO PERFIL PROFESIONAL\u2693\n\nEn concordancia con el Reglamento “PLAN DE CARRERAS” del personal de la Armada Boliviana RA-01-01, los (las) Oficiales al egresar de la Escuela Naval Militar tienen las siguientes COMPETENCIAS GENERALES:\n\n\n1. Practica un acendrado amor y lealtad por la Patria, respetuoso de la Constitución Política del Estado y de sus leyes, en base a principios de integridad, espíritu de cuerpo, vocación de servicio, voluntad de vencer, patriotismo y auto superación.\n\n2. Afronta situaciones adversas de incertidumbre, alto riesgo en base a sólidos conocimientos del arte militar naval, ciencia y tecnología en su nivel de acuerdo con su jerarquía y función.\n\n3. Promueve y difunde en su nivel, la importancia de los Intereses Marítimos, Fluviales, Lacustres y Marina Mercante, la reivindicación y conciencia marítima.\n\n4. Lidera los recursos humanos en su nivel, practicando en todo momento el respeto a los derechos humanos, en base a los principios éticos y morales.\n\n5. Mantiene la eficiencia y capacidad física con responsabilidad para responder a las exigencias de la carrera naval militar.\n\n6. Practica los principios del mando, subordinación y disciplina, constitutivos de la profesión militar, en el marco de las leyes y reglamentos vigentes.\n\n7. Utiliza los recursos tecnológicos específicos, de forma adecuada para la instrucción del personal, así como la conservación y empleo del equipamiento que se le asigna.\n\n8. Previene el impacto ambiental que genera la actividad humana; promoviendo la protección y preservación de los recursos hídricos en el marco de la legislación ambiental vigente.\n\n9. Comanda una Embarcación tipo C y/o D en un ámbito fluvial, lacustre o marítimo, de acuerdo con la doctrina naval.\n\n10. Conduce una Sección y/o Patrulla de Infantería de Marina, en un área de operaciones ribereñas y anfibias, en cumplimiento a una misión asignada, de acuerdo con procedimientos, técnicas y tácticas militares.\n\n11. Controla y vigila las actividades inherentes a la seguridad de la vida humana, protección del medio ambiente y marina mercante, en la jurisdicción de una Capitanía de Puerto Menor, mediante procedimientos de Policía de Navegación enmarcados en la normativa en actual vigencia.\n\n12. Instruye al personal de marineros y pre militares, en Pequeñas Unidades de la Armada Boliviana, conforme al Plan de Instrucción Quinquenal en actual vigencia, mediante técnicas y procedimiento de la Instrucción Orientada a la Ejecución.\n\n13. Cumple funciones dentro una Unidad de Superficie en el área de operaciones, ingeniería, administración, sanidad, armamento y cubierta, en cumplimiento de los procedimientos establecidos en los manuales de funciones respectivos.\n\n14. Asesora, coordina, planifica y supervisa todas las actividades operativas y administrativas de una embarcación tipo A y/o B, como segundo comandante, en cumplimiento a Normas Vigentes de Acción y Procedimientos Operativos Normales.\n\n15. Comanda un Elemento de Tarea, en operaciones de lucha contra el contrabando y lucha contra el narcotráfico, cumpliendo con ética profesional las distintas tareas encomendadas, en el marco de la normativa vigente y aplicando los procedimientos operativos normales.\n\n16. Cumple funciones como Oficial de Guardia en puente de forma eficaz, en buques marítimos, mediante conocimientos teóricos, comprensión y suficiencia del arte y ciencia de la navegación.\n\n\nConfío en que este perfil te ayudará a clarificar tus ideas y a comprenderlo de la mejor manera posible.\uD83E\uDD13"
+        
+        ]
+    },
+    {
+        "tag": "logo_escuela",
+        "patterns": ["escudo","logo de la escuela","logo","escudo de la escuela"],
+        "responses": [
+            
+              
+            "\uD83D\uDCF7Claro que si! este es nuestro logo oficial:\nhttps://www.armada.mil.bo/images/2023/imagenes/armada.png\n\n\uD83D\uDCF7Y este es nuestro escudo oficial:\nhttps://scontent.flpb1-1.fna.fbcdn.net/v/t39.30808-6/442417027_122094035000346409_4003593551855714195_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=XyQM0IIMSzoQ7kNvgHBfxBj&_nc_ht=scontent.flpb1-1.fna&oh=00_AYD3z9J35CE4dwUi6A6mfV_LWGcfOw24lEuzs5gktyWUEw&oe=66BB8F44"
+              
+            
+          ]
+    },
+    {
+        "tag": "historia_escuela",
+        "patterns": ["historia de la escuela","historia"],
+        "responses": [
+            "\uD83D\uDCD6Por supuesto, a continuación te presento una sección importante de nuestra historia...\n\nLa Escuela Naval Militar, primer Instituto de Formación de Oficiales Navales, fue creada mediante Decreto Supremo Nº 11098 el 28 de septiembre de 1973, durante la presidencia del Gral. Hugo Banzer Suárez. El 10 de septiembre de 1974, mediante Orden del Día de la entonces Fuerza Naval Boliviana Nº 21/74, se instituyó el 13 de octubre de cada año como fecha aniversario de este Instituto, en honor al natalicio del Héroe de la Defensa de Calama durante la Guerra del Pacífico, el Cnl. Eduardo Avaroa Hidalgo. La historia de la Escuela Naval Militar de Bolivia se puede sintetizar en cuatro etapas o periodos importantes, los cuales son:\n\n\nPrimera Etapa: En 1961 cuatro Cadetes fueron becados a la Escuela Naval de la Marina de Guerra del Perú, donde recibieron formación profesional en artes y ciencias navales; posteriormente en 1963 Alberto Sainz Klinsky ya con el grado de Alférez y un grupo de seis Cadetes, formaron la Primera Sección Fluvial de Caballeros Cadetes Navales en predios del Colegio Militar de Ejército de Bolivia, iniciando en 1965 el primer período de instrucción naval en el Puerto de Guaqui a orillas del Lago Titicaca, consolidándose en el año 1966 la conformación de la Primera Compañía Naval.\n\nSegunda Etapa: Debido al incremento del personal de Caballeros Cadetes Navales y ante la necesidad de contar con predios más adecuados para la formación del futuro Oficial Naval, el 3 de mayo de 1976 la Escuela Naval Militar se trasladó del Colegio Militar del Ejército a los predios de la ex Estación de Ferrocarriles La Paz – Guaqui, Zona Norte de la ciudad de La Paz.\n\nTercera Etapa: Comprende 37 años de funcionamiento de la Unidad Académica en la ciudad de La Paz, hasta fines de 2013, este periodo de formación se caracterizó por el crecimiento de este Instituto en las áreas académicas, con aulas y laboratorios acordes a los planes de estudios especializados en la formación del Oficial Naval, fortaleciendo la Instrucción Naval y Militar orientada específicamente al ámbito profesional mediante la ejecución de embarcos y pasantías profesionales en Armadas de países amigos, como Argentina, Brasil, Perú y Venezuela, desarrollando una identidad naval propia concordante con la tradición marítima mundial y a la vez arraigada en un profundo sentimiento nacional. En ese mismo periodo se incorpora al Batallón de Cadetes personal femenino, generando nuevas oportunidades para señoritas con vocación de “SERVICIO NAVAL”.\n\nCuarta Etapa: Comienza con el traslado de la Escuela Naval Militar a sus actuales instalaciones en la Localidad de Carcaje, Provincia Germán Jordán del Departamento de Cochabamba, a partir de enero de la gestión 2014; la Escuela Naval Militar, inicia sus actividades de formación de Damas y Caballeros Cadetes con una infraestructura moderna y equipamiento acorde a las nuevas exigencias tecnológicas y educativas. El 29 de octubre de 2018, de acuerdo con la Resolución Administrativa de la Armada Boliviana Nº 126/18, la Escuela Naval Militar “V. ALMTE. RONANT MOJE ROCA”, cambia su denominativo a su nombre actual: Escuela Naval Militar “Eduardo Avaroa Hidalgo.\n\n\nHan transcurrido desde entonces, 51 años de vida institucional de esta Unidad Académica, que día a día va formado a los futuros Oficiales Navales al servicio del Estado Plurinacional de Bolivia, asegurando el imperio de la Constitución en la defensa, seguridad, soberanía y desarrollo integral."
+        
+        ]
+    },
+    {
+        "tag": "etapas historia",
+        "patterns": ["etapas de historia","etapas de la historia"],
+        "responses": [
+            "\uD83D\uDC49La historia de la Escuela Naval Militar de Bolivia se puede sintetizar en cuatro etapas o periodos importantes, los cuales son:\n\n\nPrimera Etapa: En 1961 cuatro Cadetes fueron becados a la Escuela Naval de la Marina de Guerra del Perú, donde recibieron formación profesional en artes y ciencias navales; posteriormente en 1963 Alberto Sainz Klinsky ya con el grado de Alférez y un grupo de seis Cadetes, formaron la Primera Sección Fluvial de Caballeros Cadetes Navales en predios del Colegio Militar de Ejército de Bolivia, iniciando en 1965 el primer período de instrucción naval en el Puerto de Guaqui a orillas del Lago Titicaca, consolidándose en el año 1966 la conformación de la Primera Compañía Naval.\n\nSegunda Etapa: Debido al incremento del personal de Caballeros Cadetes Navales y ante la necesidad de contar con predios más adecuados para la formación del futuro Oficial Naval, el 3 de mayo de 1976 la Escuela Naval Militar se trasladó del Colegio Militar del Ejército a los predios de la ex Estación de Ferrocarriles La Paz – Guaqui, Zona Norte de la ciudad de La Paz.\n\nTercera Etapa: Comprende 37 años de funcionamiento de la Unidad Académica en la ciudad de La Paz, hasta fines de 2013, este periodo de formación se caracterizó por el crecimiento de este Instituto en las áreas académicas, con aulas y laboratorios acordes a los planes de estudios especializados en la formación del Oficial Naval, fortaleciendo la Instrucción Naval y Militar orientada específicamente al ámbito profesional mediante la ejecución de embarcos y pasantías profesionales en Armadas de países amigos, como Argentina, Brasil, Perú y Venezuela, desarrollando una identidad naval propia concordante con la tradición marítima mundial y a la vez arraigada en un profundo sentimiento nacional. En ese mismo periodo se incorpora al Batallón de Cadetes personal femenino, generando nuevas oportunidades para señoritas con vocación de “SERVICIO NAVAL”.\n\nCuarta Etapa: Comienza con el traslado de la Escuela Naval Militar a sus actuales instalaciones en la Localidad de Carcaje, Provincia Germán Jordán del Departamento de Cochabamba, a partir de enero de la gestión 2014; la Escuela Naval Militar, inicia sus actividades de formación de Damas y Caballeros Cadetes con una infraestructura moderna y equipamiento acorde a las nuevas exigencias tecnológicas y educativas. El 29 de octubre de 2018, de acuerdo con la Resolución Administrativa de la Armada Boliviana Nº 126/18, la Escuela Naval Militar “V. ALMTE. RONANT MOJE ROCA”, cambia su denominativo a su nombre actual: Escuela Naval Militar “Eduardo Avaroa Hidalgo.\n\n\nHan transcurrido desde entonces, 51 años de vida institucional de esta Unidad Académica, que día a día va formado a los futuros Oficiales Navales al servicio del Estado Plurinacional de Bolivia, asegurando el imperio de la Constitución en la defensa, seguridad, soberanía y desarrollo integral."
+        
+        ]
+    },
+    {
+        "tag": "hace cuanto de fundo",
+        "patterns": ["hace cuanto se fundo","se fundo","nacio la escuela","nació la escuela","aparecio la escuela","apareció la escuela","existe la escuela","se creo la escuela","creo la escuela"],
+        "responses": [
+            "\u261DNuestra querida institución fue fundada hace 51 años.\n\nLa Escuela Naval Militar, primer Instituto de Formación de Oficiales Navales, fue creada mediante Decreto Supremo Nº 11098 el 28 de septiembre de 1973, durante la presidencia del Gral. Hugo Banzer Suárez. El 10 de septiembre de 1974, mediante Orden del Día de la entonces Fuerza Naval Boliviana Nº 21/74, se instituyó el 13 de octubre de cada año como fecha aniversario de este Instituto, en honor al natalicio del Héroe de la Defensa de Calama durante la Guerra del Pacífico, el Cnl. Eduardo Avaroa Hidalgo.\u2694\n\nNo lo olvides!!"
+        
+        ]
+    },
+    {
+        "tag": "instalaciones",
+        "patterns": ["las instalaciones","instalaciones","instalacion de la escuela","instalación de la escuela","como es la escuela","cómo es la escuela"],
+        "responses": [
+            "\u2693NUESTRAS INSTALACIONES\u2693\n\n\nLas actuales instalaciones, poseen una infraestructura amplia, cómoda y beneficiosa, para coadyuvar en la formación integral de la Dama y Caballero Cadete.\n\nCon el propósito de lograr la excelencia académica, la Escuela Naval Militar, ha incorporado tecnologías de información científica en sus procesos de enseñanza, estableciendo gabinetes de Informática, Química, Electrónica, Propulsión, Biblioteca Virtual, Adiestrador Táctico para Operaciones de Superficie, Centro Tecnológico de Adiestramiento Marítimo y Naval, el acceso a Internet y áreas deportivas como ser: canchas, piscina, gimansio, entre otras, donde las Damas y Caballeros Cadetes se preparan para hacer frente a los desafíos que plantea la profesión naval y las exigencias para lograr una formación íntegra."
+        
+        ]
+    },
+    {
+        "tag": "biblioteca_virtual",
+        "patterns": ["biblioteca","biblio","sala de estudio","lugar para estudiar"],
+        "responses": [
+            "\uD83D\uDCD6\uD83E\uDD13\nPor supuesto que sí, contamos con una biblioteca bien equipada donde el caballero o dama cadete podrá estudiar y tener acceso a los libros o materiales que requiera. Deberá registrarse como poseedor del libro en el sistema computacional de la biblioteca con el personal a cargo, para luego poder retornarlo siguiendo el mismo procedimiento.","\uD83D\uDCD6\uD83E\uDD13\nClaro que sí, disponemos de una biblioteca bien equipada en la que los cadetes podrán estudiar y acceder a los libros o materiales que necesiten. Deben registrarse como usuarios del libro en el sistema de la biblioteca con el personal correspondiente y seguir el mismo procedimiento para devolverlo"
+        
+        ]
+    },
+    {
+        "tag": "internet",
+        "patterns": ["hay internet","la escuela tiene internet","wifi","wi fi"],
+        "responses": [
+            "\uD83D\uDCBB\uD83C\uDF10\nNuestra institución cuenta con un servicio de internet por red inalámbrica; sin embargo, la dama o el caballero cadete no podrán usarlo sin autorización de un superior. En caso contrario, serán sancionados según el reglamento.","\uD83D\uDCBB\uD83C\uDF10\nContamos con un servicio de internet inalámbrico en nuestra institución, pero los cadetes no podrán utilizarlo sin la autorización de un superior. De no cumplir con esta norma, se les impondrán sanciones de acuerdo con el reglamento."
+        
+        ]
+    },
+    {
+        "tag": "cancha",
+        "patterns": ["cancha","canchas","futbol","campos de futbol"],
+        "responses": [
+            "\u26BD\uD83C\uDFC6\nNuestra Escuela Naval Militar cuenta con una cancha de fútbol y futsal de dimensiones oficiales, donde la dama o el caballero cadete podrán ejercitarse en los días de deporte que se designen por disposiciones superiores. Por otro lado, es importante mencionar que se contará con un equipo representante con los mejores desempeños sobre la cancha!!","\u26BD\uD83C\uDFC6\nEn nuestra Escuela Naval Militar disponemos de canchas de fútbol y futsal de tamaño oficial, donde los cadetes podrán practicar durante los días de deporte establecidos por las autoridades. Además, es importante destacar que contaremos con un equipo representativo que se designara por un excelente desempeño en el campo."
+        
+        ]
+    },
+    {
+        "tag": "piscina",
+        "patterns": ["tiene piscina","tienen piscina","cuenta con piscina","posee piscina","hay piscina","hay pisina","hay picina","tiene pisina","tiene picina","cuenta con pisina","cuenta con picina"],
+        "responses": [
+            "\uD83C\uDFCA\n¡Desde luego que sí! Poseemos una piscina de 25 metros de largo, donde los cadetes podrán realizar todo tipo de pruebas en horarios establecidos por un superior, desde rutinas simples hasta exámenes físicos. Además, se llevarán a cabo competencias de natación y se evaluarán a los mejores nadadores para representaciones de la Escuela Naval Militar.","\uD83C\uDFCA\n¡Por supuesto! Disponemos de una piscina de 25 metros de largo, ideal para que los cadetes realicen diversas pruebas en dias especificos autorizados por un superior, desde rutinas básicas hasta exámenes físicos. También se organizarán competiciones de natación y se seleccionarán a los mejores nadadores para representar a la Escuela Naval Militar."
+        
+        ]
+    },
+    {
+        "tag": "gimnasio",
+        "patterns": ["gimnasio","gim","gym"],
+        "responses": [
+            "\uD83C\uDFC3\uD83D\uDCAA\nPor supuesto, la Escuela Naval Militar cuenta con un gimnasio muy bien equipado. Los cadetes tienen la opción de elegir una disciplina deportiva y podrán acceder a este gimnasio si han elegido dicha disciplina y han obtenido la autorización de un superior. Además, se considerarán los mejores levantamientos de pesas para representar a nuestra institución","\uD83C\uDFC3\uD83D\uDCAA\nClaro, nuestra Escuela Naval Militar dispone de un gimnasio completamente equipado. Los cadetes pueden optar por una disciplina deportiva y, tras recibir la autorización correspondiente de un superior, tendrán acceso al gimnasio. También se seleccionarán los mejores levantadores de pesas para representar a la institución"
+        
+        ]
+    },
+    {
+        "tag": "aspirante",
+        "patterns": ["aspirante","aspir"],
+        "responses": [
+            "\uD83D\uDC66DEFINICION DE ASPIRANTE\uD83D\uDC66\n\nJoven o señorita bachiller boliviano(a), que esté interesado en realizar sus estudios en la Escuela Naval Militar “EDUARDO AVAROA HIDALGO” y que participa como evaluado en el proceso de admisión para lograr su aceptación como Postulante."
+        
+        ]
+    },
+    {
+        "tag": "postulante",
+        "patterns": ["postulante","postulan"],
+        "responses": [
+            "\uD83D\uDC54DEFINICION DE POSTULANTE\uD83D\uDC54\n\nJoven o señorita bachiller, que ha cumplido todos los requisitos exigidos en el Prospecto de Admisión y aprobó de manera satisfactoria el proceso de admisión de la Escuela Naval Militar y se encuentre cursando el periodo vestibular de esta Unidad Académica. "
+        
+        ]
+    },
+    {
+        "tag": "dama_caballero_cadete",
+        "patterns": ["cadete","dama cadete","caballero cadete"],
+        "responses": [
+            "\uD83D\uDC68\u200D\u2708\uFE0FDEFINICION DE DAMA O CABALLERO CADETE\uD83D\uDC68\u200D\u2708\uFE0F\n\nPostulante que aprobó satisfactoriamente el periodo vestibular de la Escuela Naval Militar; pasando a ser Dama o Caballero Cadete de 1er. Año de esta Unidad Académica."
+        
+        ]
+    },
+    {
+        "tag": "actividades_complementarias",
+        "patterns": ["actividades complementarias","actividad complementaria","complementarias","complementario","complementaria","actividad complementaria","actividades extras","aparte","a parte","que mas hacen","mas realizan","más hacen","más realizan"],
+        "responses": [
+            "\uD83C\uDFA4\uD83C\uDFB6\uD83C\uDFAD\uD83C\uDFB8\uD83C\uDFC7\nLas Damas y los Caballeros Cadetes pueden desarrollar, de acuerdo con sus aptitudes personales, otras áreas que contribuyan a desarrollar distintos campos de la formación naval, como ser: teatro, coro, música, caballería, periodismo, diseño gráfico, escultura, destreza con armas, danza, modelismo naval, dibujo y pintura; además, pueden participar en seminarios y conferencias que fortalezcan su cultura general.","\uD83C\uDFA4\uD83C\uDFB6\uD83C\uDFAD\uD83C\uDFB8\uD83C\uDFC7\nLos cadetes, tanto damas como caballeros, tienen la oportunidad de desarrollar, según sus habilidades personales, otras áreas que complementan su formación naval, como teatro, coro, música, caballería, periodismo, diseño gráfico, escultura, destreza con armas, danza, modelismo naval, dibujo y pintura. Asimismo, pueden participar en seminarios y conferencias para enriquecer su cultura general."
+        
+        ]
+    },
+    {
+        "tag": "infraestructura",
+        "patterns": ["infraestructura","infra","estructura","estructuras","infraestructuras"],
+        "responses": [
+            "\uD83C\uDFD7\uFE0F\uD83C\uDFE2\nLa Escuela Naval Militar “EDUARDO AVAROA HIDALGO”, cuenta con una infraestructura y equipamiento moderno de aulas, laboratorios, apoyo académico, biblioteca física y virtual. Asimismo esta Unidad Académica cuenta con:\n\n• Adiestrador Táctico para Operaciones de Superficie (ADITAC).\n\n• Centro Tecnológico de Adiestramiento Marítimo y Naval (CETAMN)."
+        
+        ]
+    },
+    {
+        "tag": "adiestrador_tactico",
+        "patterns": ["adiestrador","adiestrador tactico","aditac","adiestrador táctico"],
+        "responses": [
+            "\u2693ADITAC\u2693\n\nTiene como objetivo de adiestrar a las DD. y CC.CC. en técnicas de navegación, mediante la implementación de un gabinete de Navegación, en el que se puede realizar operaciones entre varias unidades de superficie con interacción entre el mundo virtual."
+        
+        ]
+    },
+    {
+        "tag": "centro_tecnologico",
+        "patterns": ["centro tecnologico","centró tecnológico","cetamn"],
+        "responses": [
+            "\u2693CETAMN\u2693\n\nEste Simulador está diseñado para emular por completo el Puente de Navegación de un buque sin importar su porte. Crea el ambiente adecuado para el entrenamiento de tripulaciones mediante la Navegación en cualquier parte del mundo."
+        
+        ]
+    },
+    {
+        "tag": "area_disciplinaria",
+        "patterns": ["area disciplinaria","área disciplinaria","disciplinaria","disciplina"],
+        "responses": [
+            "\uD83C\uDFC5\u2693\nLa disciplina, es una virtud militar que se inculca con el ejemplo y la práctica constante del fiel cumplimiento a las normas establecidas, siendo estas de carácter obligatorio y de estricto cumplimiento.\n\nEl sistema disciplinario de la Escuela Naval Militar “Eduardo Avaroa Hidalgo”, regula el comportamiento de las Damas y Caballeros Cadetes en todas las actividades que desarrollan, tanto dentro como fuera de la Unidad Académica. La evaluación del (la) Cadete es integral porque la Carrera Naval - Militar así lo exige."
+        
+        ]
+    },
+    {
+        "tag": "aptitud_naval",
+        "patterns": ["aptitud naval","actitud naval"],
+        "responses": [
+            "\u2693APTITUD NAVAL\u2693\n\nEs la esencia misma del (la) futuro (a) Oficial Naval, la más exigente y a la vez la más grata, involucra la creación de una serie de situaciones en las cuales se pone a prueba el espíritu marinero de las Damas y Caballeros Cadetes, buscando formar su persona, fortalecer su carácter y desarrollar sus habilidades marineras.\n\nEl dominio de una embarcación exige de conocimientos profundos de las capacidades y vulnerabilidades; además requiere la habilidad de la tripulación para desarrollar un fuerte espíritu de cuerpo, coordinación y trabajo en equipo; esto se consigue con el adiestramiento marinero y un agudo ojo marinero (experiencia y conocimiento), que se constituye en uno de los pilares fundamentales de la formación de los(as) futuros(as) Oficiales Navales."
+        
+        ]
+    },
+    {
+        "tag": "aptitud_militar",
+        "patterns": ["aptitud militar","actitud militar"],
+        "responses": [
+            "\uD83E\uDE96APTITUD MILITAR\uD83E\uDE96\n\nLa instrucción Militar, tiene por objeto formar al (la) futuro(a) Oficial en las técnicas y tácticas de conducción de Unidades de Infantería de Marina. La exigencia que impone este adiestramiento y el medio geográfico sobre el que actúan las fuerzas de Infantería de Marina, obliga a las damas y caballeros cadetes un estudio detallado de la Doctrina Militar Naval, carácter, actitud y un esfuerzo físico adicional para el cual deben estar preparados(as).\n\nAbarca los cuatro años de estudio en la Escuela Naval Militar. Las Damas y Caballeros Cadetes de Cuarto Año cierran el ciclo del adiestramiento conduciendo Secciones de Infantería de Marina."
+        
+        ]
+    },
+    {
+        "tag": "area_fisica",
+        "patterns": ["capacitacion fisica","capacitación física","area fisica","área física"],
+        "responses": [
+            "\u26BD\uD83C\uDFC0\uD83C\uDFBE\uD83E\uDD4A\uD83C\uDFCB\uFE0F\uD83C\uDFCA\uD83C\uDFC5\n\nLa condición física, es esencial en la Carrera Naval, porque coadyuva al desarrollo de destrezas, habilidades y capacidades, vinculadas a la educación de los componentes de la Armada Boliviana, forjando el carácter, templanza y eficiencia combativa del talento humano, siguiendo el pensamiento “MENTE SANA EN CUERPO SANO”.\n\nAl ser el agua el medio natural en el cual el (la) Oficial Naval desarrollará permanentemente sus actividades, la aprobación de la disciplina de natación se considera un requisito indispensable no solo al ingreso sino también durante el periodo de formación en la Escuela Naval Militar “EDUARDO AVAROA HIDALGO”."
+        
+        ]
+    },
+    {
+        "tag": "servicio_militar",
+        "patterns": ["servicio militar","cuartel","libreta de cuartel","libreta de servicio militar","libreta militar"],
+        "responses": [
+            "\uD83D\uDC49 Para poder postular a nuestra prestigiosa institución, no es necesario haber realizado el servicio militar; sin embargo, las damas y caballeros cadetes que hayan permanecido por un año o más tendrán derecho a solicitar la Libreta del Servicio Militar, previo informe favorable de la Unidad Académica.",
+            "\uD83D\uDC49 No es obligatorio haber realizado el servicio militar para postular a nuestra prestigiosa institución; sin embargo, las damas y caballeros cadetes que hayan completado un año o más en la institución tendrán derecho a solicitar la Libreta del Servicio Militar, siempre que cuenten con un informe favorable de la Unidad Académica."
+        
+        ]
+    },
+    {
+        "tag": "premios_distinciones",
+        "patterns": ["hay premios","distinciones","disinción","hay reconocimientos","reconocimientos","reconocimiento"],
+        "responses": [
+            "\uD83C\uDFC6\uD83C\uDFC5\nLas damas o caballeros cadetes destacados durante su permanencia en la Escuela Naval Militar en alguna de las siguientes áreas: Académica, Aptitud Naval Militar, Capacitación Física y Disciplina, obtienen como reconocimiento a su esfuerzo premios y distinciones, que consisten en: ascensos, designaciones como abanderados y escoltas, cordones y plaquetas.",
+            "\uD83C\uDFC6\uD83C\uDFC5\nLos cadetes, tanto damas como caballeros, que se destaquen en áreas como Académica, Aptitud Naval Militar, Capacitación Física y Disciplina durante su tiempo en la Escuela Naval Militar, son reconocidos con premios y distinciones que incluyen ascensos, designaciones como abanderados y escoltas, cordones y plaquetas."
+        
+        ]
+    },
+    {
+        "tag": "adquisicion_prospecto",
+        "patterns": ["venden el prospecto","consigo el prospecto","encuentro el prospecto","obtengo el prospecto","adquiero el prospecto","donde compro el prospecto","dónde compró el prospecto","venden el prospecto","venderan el prospecto","venderán el prospecto","hay el prospecto"],
+        "responses": [
+            "\uD83D\uDDFACENTROS DE VENTA DE PROSPECTOS HABILITADOS A NIVEL NACIONAL\uD83D\uDDFA\n\nPuedo ayudarte con eso. Aquí te dejo una lista de las direcciones y ubicaciones oficiales donde puedes adquirir tu prospecto en los diferentes departamentos.\n\n\n\uD83D\uDCCDLA PAZ\n\nDirección: ESCUELA DE IDIOMAS DE LA ARMADA Calle Vicenta Juariste Eguino N° 400 (Campo Educativo Naval).\n\nUbicación: https://maps.app.goo.gl/CJhZ9AUWRh422xJh9\n\n\n\uD83D\uDCCDCOCHABAMBA\n\nDirección: ESCUELA NAVAL MILITAR Carcaje Km. 21, carretera antigua a Santa Cruz\n\nUbicación: https://maps.app.goo.gl/sBUGKhWWJEtfgwy47\n\n\n\uD83D\uDCCDSANTA CRUZ\n\nDirección: ÁREA NAVAL N° 2 “SANTA CRUZ” Barrio Hawai, lado Centro de Salud “Pajonal” entre calles Cabezas y Chiriguano S/N.\n\nUbicación: https://maps.app.goo.gl/WuCPFiSkTRbSQzNq7\n\n\n\uD83D\uDCCDBERMEJO\n\nDirección: ÁREA NAVAL N° 3 “BERMEJO” Avenida Petrolera S/N, Zona Las Chalanas.\n\nUbicación: https://maps.app.goo.gl/tQ2J2Ag7w23FxrnC8\n\n\n\uD83D\uDCCDCOBIJA\n\nDirección: SEXTO DISTRITO NAVAL “PANDO” Barrio Junín, Avenida Ismael Montes N° 70\n\nUbicación: https://maps.app.goo.gl/ExLRQumMRqpqkdoD7\n\n\n\uD83D\uDCCDPUERTO QUIJARRO\n\nDirección: QUINTO DISTRITO NAVAL “SANTA CRUZ” Av. Luis Salazar de la Vega S/N\n\nUbicación: https://maps.app.goo.gl/jWAjVcicNyJxC7bT6\n\n\n\uD83D\uDCCDGUAYARAMERIN\n\nDirección: TERCER DISTRITO NAVAL “MADERA” Avenida Costanera entre calles Beni y Federico Román.\n\nUbicación: https://maps.app.goo.gl/Uc5AwUtxq34kZtXR8\n\n\n\uD83D\uDCCDSANTISIMA TRINIDAD\n\nDirección: SEGUNDO DISTRITO NAVAL “MAMORÉ” Avenida 6 de Agosto esquina calle Melitón Villavicencio.\n\nUbicación: https://maps.app.goo.gl/bAvzFv8FcGv2Uvux5\n\n\n\uD83D\uDCCDRIBERALTA\n\nDirección: PRIMER DISTRITO NAVAL “BENI” Barrio Central, Avenida Dr. Martínez S/N.\n\nUbicación: https://maps.app.goo.gl/SjbCWr6QPz8HUjVy8\n\n\nEl Proceso de Admisión se desarrollará en los diferentes departamentos y puntos de venta del Prospecto de Admisión 2025, que realizarán las Unidades Militares y/o Académicas autorizadas por la Escuela Naval Militar “EDUARDO AVAROA HIDALGO”, del 04 al 26 de noviembre de 2024.",
+            "\uD83D\uDDFACENTROS DE VENTA DE PROSPECTOS HABILITADOS A NIVEL NACIONAL\uD83D\uDDFA\n\nCon gusto te ayudo. Aquí te dejo una lista de las direcciones y ubicaciones oficiales donde puedes obtener tu prospecto en los diferentes departamentos.\n\n\n\uD83D\uDCCDLA PAZ\n\nDirección: ESCUELA DE IDIOMAS DE LA ARMADA Calle Vicenta Juariste Eguino N° 400 (Campo Educativo Naval).\n\nUbicación: https://maps.app.goo.gl/CJhZ9AUWRh422xJh9\n\n\n\uD83D\uDCCDCOCHABAMBA\n\nDirección: ESCUELA NAVAL MILITAR Carcaje Km. 21, carretera antigua a Santa Cruz\n\nUbicación: https://maps.app.goo.gl/sBUGKhWWJEtfgwy47\n\n\n\uD83D\uDCCDSANTA CRUZ\n\nDirección: ÁREA NAVAL N° 2 “SANTA CRUZ” Barrio Hawai, lado Centro de Salud “Pajonal” entre calles Cabezas y Chiriguano S/N.\n\nUbicación: https://maps.app.goo.gl/WuCPFiSkTRbSQzNq7\n\n\n\uD83D\uDCCDBERMEJO\n\nDirección: ÁREA NAVAL N° 3 “BERMEJO” Avenida Petrolera S/N, Zona Las Chalanas.\n\nUbicación: https://maps.app.goo.gl/tQ2J2Ag7w23FxrnC8\n\n\n\uD83D\uDCCDCOBIJA\n\nDirección: SEXTO DISTRITO NAVAL “PANDO” Barrio Junín, Avenida Ismael Montes N° 70\n\nUbicación: https://maps.app.goo.gl/ExLRQumMRqpqkdoD7\n\n\n\uD83D\uDCCDPUERTO QUIJARRO\n\nDirección: QUINTO DISTRITO NAVAL “SANTA CRUZ” Av. Luis Salazar de la Vega S/N\n\nUbicación: https://maps.app.goo.gl/jWAjVcicNyJxC7bT6\n\n\n\uD83D\uDCCDGUAYARAMERIN\n\nDirección: TERCER DISTRITO NAVAL “MADERA” Avenida Costanera entre calles Beni y Federico Román.\n\nUbicación: https://maps.app.goo.gl/Uc5AwUtxq34kZtXR8\n\n\n\uD83D\uDCCDSANTISIMA TRINIDAD\n\nDirección: SEGUNDO DISTRITO NAVAL “MAMORÉ” Avenida 6 de Agosto esquina calle Melitón Villavicencio.\n\nUbicación: https://maps.app.goo.gl/bAvzFv8FcGv2Uvux5\n\n\n\uD83D\uDCCDRIBERALTA\n\nDirección: PRIMER DISTRITO NAVAL “BENI” Barrio Central, Avenida Dr. Martínez S/N.\n\nUbicación: https://maps.app.goo.gl/SjbCWr6QPz8HUjVy8\n\n\nEl Proceso de Admisión se desarrollará en los diferentes departamentos y puntos de venta del Prospecto de Admisión 2025, que realizarán las Unidades Militares y/o Académicas autorizadas por la Escuela Naval Militar “EDUARDO AVAROA HIDALGO”, del 04 al 26 de noviembre de 2024."
+        
+        ]
+    }
+]
+
+}

@@ -1,0 +1,35 @@
+instalaion de requirements.txt
+pip install python-telegram-bot nltk keras
+1. Abre Telegram y Busca BotFather
+Abre la aplicación de Telegram en tu dispositivo móvil o en la versión de escritorio.
+En la barra de búsqueda, escribe BotFather y selecciona el bot oficial de Telegram llamado BotFather.
+2. Inicia una Conversación con BotFather
+Haz clic en Iniciar o Start para comenzar una conversación con BotFather.
+3. Crea un Nuevo Bot
+Escribe /newbot y presiona Enter. BotFather te guiará para crear un nuevo bot.
+4. Nombre del Bot
+BotFather te pedirá que elijas un nombre para tu bot. Este es el nombre que los usuarios verán en la lista de contactos y cuando interactúen con el bot. Por ejemplo, podrías llamarlo MiChatBot.
+5. Nombre de Usuario del Bot
+Luego, BotFather te pedirá que elijas un nombre de usuario para tu bot. Este nombre debe ser único y terminar en bot (por ejemplo, MiChatbotBot). Si el nombre de usuario que eliges no está disponible, deberás intentar con otro.
+6. Obtén el Token del Bot
+Una vez que hayas proporcionado un nombre y un nombre de usuario, BotFather creará tu bot y te enviará un mensaje que incluye el token de API. Este token es una cadena larga de letras y números que necesitas para conectar tu bot a tu código.
+Ejemplo de token: 7328850187:AAFCWTj86WctvsNWquYz9zJJP_ivhDQjJUQ.
+
+7. Configura tu Bot
+Ahora que tienes el token, puedes volver a tu código y asegurarte de que esté configurado correctamente en la variable bot_token:
+python
+Copiar código
+bot_token = "7328850187:AAFCWTj86WctvsNWquYz9zJJP_ivhDQjJUQ"
+8. Interactúa con tu Bot en Telegram
+En Telegram, busca el bot utilizando el nombre de usuario que configuraste (por ejemplo, @MiChatbotBot).
+Abre una conversación con tu bot y envía un mensaje para ver cómo responde.
+Notas Adicionales:
+Puedes usar otros comandos de BotFather para personalizar tu bot, como agregar una descripción, una foto de perfil, o comandos específicos.
+El token que recibiste es importante, no lo compartas públicamente, ya que permite controlar tu bot.
+Con estos pasos, deberías poder crear e interactuar con tu bot en Telegram.
+
+luego uno tiene que importar y descargar en puthon 
+
+import nltk
+nltk.download('wordnet')
+nltk.download('punkt_tab')
